@@ -61,14 +61,14 @@ public class DesignTacoController {
 /*
 //tag::processDesign[]
   @PostMapping
-  public String processDesign(Design design) {
+  public String processDesign(Taco design) {
     // Save the taco design...
     // We'll do this in chapter 3
     log.info("Processing design: " + design);
     return "redirect:/orders/current";
   }
 //end::processDesign[]
- */
+*/
 
     //tag::processDesignValidated[]
     @PostMapping
